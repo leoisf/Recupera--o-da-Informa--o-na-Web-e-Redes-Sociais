@@ -1,0 +1,23 @@
+# Arquivos e pastas de ambiente
+.venv/
+env/
+venv/
+__pycache__/
+*.py[cod]
+
+# Arquivos de configuração contendo chaves/API keys
+# Ignore o arquivo de configuração local com chaves
+A1/coleta_youtube/coleta_youtube/crawler/config.py
+# Também ignore possíveis arquivos .env
+.env
+.env.*
+
+# Dados brutos e exportados (CSV)
+*.csv
+
+# Saídas geradas (imagens, etc.)
+*.png
+
+# OS files
+.DS_Store
+Thumbs.db
