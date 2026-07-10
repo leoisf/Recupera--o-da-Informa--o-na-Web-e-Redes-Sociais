@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 from wordcloud import WordCloud, STOPWORDS
 
 # --- Configurações Iniciais ---
-ARQUIVO_CSV = 'files 20260617_185303/comments_info.csv'  # Nome do seu arquivo
+ARQUIVO_CSV = 'files 20260617_211608/comments_info.csv'  # Nome do seu arquivo
 COLUNA_TEXTO = 'comment'  # Nome da coluna que contém os comentários
 
 
